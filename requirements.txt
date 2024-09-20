@@ -1,0 +1,27 @@
+# base
+ipython
+fastapi[standard]
+black
+meval
+asgiref
+rich
+tqdm
+
+# ollama
+ollama
+
+# mongodb
+pymongo
+
+# chromadb
+chromadb-client
+
+# langchain
+langchain
+langchain-community
+langchain-chroma
+langgraph
+langchain-experimental
+
+# langchain tools
+plumbum

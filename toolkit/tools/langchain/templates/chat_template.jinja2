@@ -1,0 +1,12 @@
+{% raw %}
+{% if system_prompt %}
+{{system_prompt}}
+{% endif %}
+
+{% if context_list %}
+{% for context in context_list %}
+{{context.key|upper}}:
+{{context.content}}
+{% endfor %}
+{% endif %}
+{% endraw %}
