@@ -8,7 +8,7 @@ rich
 tqdm
 
 # ollama
-ollama
+ollama==0.3.3
 
 # mongodb
 pymongo
